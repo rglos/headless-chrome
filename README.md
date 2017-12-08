@@ -1,3 +1,3 @@
 # headless-chrome
 
-Testing using chrome headless
+Test using chrome in .net core unit test project using both headless chrome and interactive chrome.
