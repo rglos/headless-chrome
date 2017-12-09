@@ -41,7 +41,8 @@ namespace HeadlessChrome
             // headless option
             var chromeOptions = new ChromeOptions();
             chromeOptions.AddArgument("--headless");
-
+            //chromeOptions.AddArgument("--window-size=1920,1200"); // optionally set the size of the window
+            
             // now we can use it...
             using (var chrome = new ChromeDriver(pathToChromeDriverDirectory, chromeOptions))
             {
